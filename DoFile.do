@@ -1,6 +1,6 @@
 vlib work 
 
-vlog PROJECT1.v Reg_Mux_Pair.v PROJECT1_GOLD.v Project1_tb.v
+vlog DSP.v Reg_Mux_Pair.v DSP_GOLDEN_MODEL.v DSP_tb.v
 
 vsim -voptargs=+acc work.DSP48A1_tb
 
